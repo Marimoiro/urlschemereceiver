@@ -1,4 +1,4 @@
-//original http://westhillapps.blog.jp/archives/25883001.html
+//referenced by http://westhillapps.blog.jp/archives/25883001.html
 
 package urlreceiver;
 
