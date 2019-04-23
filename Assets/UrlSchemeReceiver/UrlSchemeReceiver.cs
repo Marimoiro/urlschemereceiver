@@ -10,9 +10,25 @@ namespace Assets.UrlSchemeReceiver
 {
     public static class UrlSchemeReceiver
     {
+        /// <summary>
+        /// true if app open from url scheme. otherwise false 
+        /// </summary>
         public static bool OpenFromUrlScheme { get; private set; }
 
+        /// <summary>
+        /// urlscheme
+        /// e.g. urlscheme://example
+        /// 
+        /// if app opend by other way. This value is null
+        /// </summary>
         public static string OpenUrl { get; private set; }
+
+        /// <summary>
+        /// specificpart of urlscheme
+        /// e.g. example
+        /// 
+        /// if app opend by other way. This value is null
+        /// </summary>
         public static  string SpecificPart { get; private set; }
         
 
