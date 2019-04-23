@@ -27,7 +27,6 @@ namespace Assets.UrlSchemeReceiver
             OpenFromUrlScheme = !string.IsNullOrEmpty(specific);
             OpenUrl = scheme + ":" + specific;
             SpecificPart = specific?.Split(new []{"//"},StringSplitOptions.None).LastOrDefault();
-            Debug.Log("url is" + OpenUrl);
 #elif UNITY_IOS
             var scheme = OnOpenURLListener_GetOpenURLString();
             OpenFromUrlScheme = scheme != null;
