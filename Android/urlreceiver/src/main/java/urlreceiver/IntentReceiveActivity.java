@@ -16,11 +16,9 @@ public class IntentReceiveActivity extends Activity {
 
     private static String scheme;
     private static String specific;
-
-    /* アクティビティ保持用 */
+    
     private static Activity mThisActivity;
 
-    /* アクティビティ遷移ハンドラ */
     private static Handler mMoveActivityHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -38,7 +36,6 @@ public class IntentReceiveActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // save getSchemeSpecificPart for playerPrefs
         specific = getIntent().getData().getSchemeSpecificPart();
         scheme = getIntent().getData().getScheme();
 
