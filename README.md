@@ -9,7 +9,7 @@ Set UrlScheme from iOS ProjectSettings
 
 ## Android
 
-Add below sentence in \<application\> of AndroidManifest.xml
+Add below sentence in \<application\> in AndroidManifest.xml
 
 ```
         <!-- url receiver activity -->
