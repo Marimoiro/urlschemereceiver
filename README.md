@@ -23,7 +23,7 @@ Add below sentence in \<application\> in AndroidManifest.xml
         </activity>
 ```
 
-#Usage
+# Usage
 UrlSchemeReceiver class is ALL
 
 ```
