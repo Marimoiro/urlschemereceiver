@@ -4,10 +4,10 @@
 Import this [unitypackage](https://github.com/Marimoiro/urlschemereceiver/blob/master/urlreceiver.unitypackage)
 
 
-#iOS
+## iOS
 Set UrlScheme from iOS ProjectSettings
 
-#Android
+## Android
 
 Add below sentence in <application> of AndroidManifest.xml
 
