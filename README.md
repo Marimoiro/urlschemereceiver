@@ -1,4 +1,4 @@
-﻿# urlschemereceiver
+﻿# urlschemereceiver for unity
  
 # Install
 Import this [unitypackage](https://github.com/Marimoiro/urlschemereceiver/blob/master/urlreceiver.unitypackage)
