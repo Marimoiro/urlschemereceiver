@@ -38,7 +38,7 @@ UrlSchemeReceiver class is ALL
         /// urlscheme
         /// e.g. urlscheme://example
         /// 
-        /// if app opend by other way. This value is null
+        /// if app is opened by other way. This value is null
         /// </summary>
         public static string OpenUrl { get; private set; }
 
@@ -46,7 +46,7 @@ UrlSchemeReceiver class is ALL
         /// specificpart of urlscheme
         /// e.g. example
         /// 
-        /// if app opend by other way. This value is null
+        /// if app is opened by other way. This value is null
         /// </summary>
         public static  string SpecificPart { get; private set; }
         
